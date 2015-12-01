@@ -1,11 +1,8 @@
 'use strict'
-
-console.log("ok");
 var contactApp = angular.module('contactApp',['ngRoute']);
 
-contactApp.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider) {
-  $locationProvider.html5Mode(true);
-  console.log("ok2");
+contactApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
     $routeProvider.
 	when('/contacts', {
 	    templateUrl:'modules/contacts/partials/contact_list.html',
