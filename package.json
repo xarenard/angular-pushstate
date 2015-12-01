@@ -1,0 +1,26 @@
+{
+  "name": "push_state",
+  "version": "0.0.1",
+  "description": "Angular Push State Example",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "karma": "^0.13.15",
+    "karma-cli": "^0.1.1",
+    "karma-phantomjs-launcher": "^0.2.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.19"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Xavier Renard",
+  "license": "ISC"
+}

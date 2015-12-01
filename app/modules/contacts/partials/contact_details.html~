@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <table>
+	<tr>
+	  
+      <td>Name:</td><td> {{ contact.firstName}} {{ contact.lastName}}</td>
+      </tr>
+	<tr>
+      <td>Street:</td><td> {{ contact.address.streetNumber }}, {{ contact.address.streetName }}</td>
+      </tr>
+</table>
+    </div>
+
+  </div>
+
+</div>
